@@ -2,6 +2,8 @@
 
 [Game made for Global Game Jam 2021](https://globalgamejam.org/2021/games/spooky-traveler-0)
 
+![](spookyTraveler.gif)
+
 My first attempt to learn and make a GameBoy game using GameBoy Development Kit 2020 (GBDK) and the C programming language.
 
 You can play it on any GameBoy emulator on your PC! 
