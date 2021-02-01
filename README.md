@@ -6,13 +6,13 @@ My first attempt to learn and make a GameBoy game using GameBoy Development Kit 
 
 You can play it on any GameBoy emulator on your PC! 
 
-
-BGB is a small easy to use emulator that you can download here: https://bgb.bircd.org/ 
-Load SpookyTraveler.gb in the emulator
+BGB is a small easy to use emulator that you can [download here](https://bgb.bircd.org/) then Load SpookyTraveler.gb in the emulator.
 
 Tools used to make the game: 
 
 [GBDK2020]( https://github.com/Zal0/gbdk-2020)
+
+[BGB Emulator](https://bgb.bircd.org/)
 
 [Tile Designer](http://www.devrs.com/gb/hmgd/gbtd.html )
 
