@@ -1,0 +1,84 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 1.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000000 L
+  0 _InitGameOver                                                  000099 GR
+  0 _InitTitleScreen                                               00005C GR
+    _LCDC_REG                                                      ****** GX
+    _NR50_REG                                                      ****** GX
+    _NR51_REG                                                      ****** GX
+    _NR52_REG                                                      ****** GX
+    _SCX_REG                                                       ****** GX
+    _SCY_REG                                                       ****** GX
+    __modsint                                                      ****** GX
+    _abs                                                           ****** GX
+  1 _atTitleScreen                                                 0007F7 GR
+  0 _checkForHeartCollision                                        000336 GR
+  0 _checkInput                                                    0001ED GR
+  0 _collisionCheck                                                0003C9 GR
+  0 _decrementHealthOverTime                                       0001CA GR
+  1 _dungeon                                                       000080 GR
+  1 _enemy                                                         0007F5 GR
+  1 _framesBetweenHealthDecrement                                  0007EE GR
+  1 _framesBetweenScrolling                                        0007F0 GR
+  0 _gameInit                                                      000128 GR
+  1 _gameIsOver                                                    0007F8 GR
+  1 _gameOverMap                                                   000510 GR
+  1 _gameOverScreenInit                                            0007F9 GR
+  1 _gameOverTiles                                                 0003A0 GR
+  1 _health                                                        0007ED GR
+  1 _healthFrameCounter                                            0007EF GR
+  1 _i                                                             0007E5 GR
+  0 _init                                                          0000E4 GR
+  1 _j                                                             0007E9 GR
+    _joypad                                                        ****** GX
+  0 _main                                                          000000 GR
+  0 _moveEnemySprite                                               000196 GR
+  0 _movePlayerSprite                                              000175 GR
+  1 _player                                                        0007F3 GR
+    _rand                                                          ****** GX
+  0 _rand_range                                                    000495 GR
+  1 _scrollPos                                                     0007F2 GR
+  0 _scrollScreen                                                  000244 GR
+  0 _setNewHeartYPos                                               00039C GR
+    _set_bkg_data                                                  ****** GX
+    _set_bkg_tiles                                                 ****** GX
+    _set_sprite_data                                               ****** GX
+    _shadow_OAM                                                    ****** GX
+  1 _shouldScrollCounter                                           0007F1 GR
+  1 _sprites                                                       000000 GR
+  1 _tempChar                                                      0007E2 GR
+  1 _tempTilePos                                                   0007E0 GR
+  1 _tempX                                                         0007E3 GR
+  1 _tempY                                                         0007E4 GR
+  1 _tiles                                                         0002C0 GR
+  1 _timerToRespawnHeart                                           0007FA GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 2.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  1 _titleScreen                                                   000678 GR
+  0 _tryRespawnHeart                                               00037A GR
+  0 _updateSwitches                                                0001B7 GR
+    _wait_vbl_done                                                 ****** GX
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 3.
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size    4C0   flags    0
+   1 _DATA                                      size    7FB   flags    0
+   2 _DABS                                      size      0   flags    8
+   3 _HOME                                      size      0   flags    0
+   4 _GSINIT                                    size   2792   flags    0
+   5 _GSFINAL                                   size      0   flags    0
+   6 _CABS                                      size      0   flags    8
+
